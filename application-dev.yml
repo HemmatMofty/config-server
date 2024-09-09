@@ -4,8 +4,8 @@ spring:
     platform: postgres
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/election_definition
-    username: postgres
-    password: 123
+    username: dev_user
+    password: dev_password
   jpa:
     database: POSTGRESQL
     show-sql: true
